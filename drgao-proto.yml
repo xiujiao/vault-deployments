@@ -1,0 +1,19 @@
+---
+kit:
+  name:    vault
+  version: 0.1.1
+  subkits: []
+
+params:
+  env:   drgao-proto
+  vault: drgao/proto/vault
+  bosh: drgao-bill-proto
+
+  # The name of the BOSH network to deploy Vault to
+  #vault_network: vault
+
+  # The name of the BOSH disk pool to give Vault
+  #vault_disk_pool: vault
+
+  # The name of the BOSH VM type for Vault to use
+  #vault_vm_type: small
